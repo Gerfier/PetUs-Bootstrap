@@ -8,11 +8,6 @@ body {
   color: #000307;
 }
 
-html {
-  height: 100%;  
-}
-
-
 html, body {
  overflow-x: hidden; 
 }
