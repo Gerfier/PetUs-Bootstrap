@@ -1,0 +1,92 @@
+
+html, body{
+width: 100%;
+/*overflow: hidden;*/
+}
+
+/* The hero image */
+body{
+     background-image: url("https://images.unsplash.com/photo-1484496939624-6fe97cb39bd9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a63deb6d861530655c2b4ba328bc174&auto=format&fit=crop&w=1050&q=80");
+     /* Set a specific height */
+    height: 100vh;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#forms-title{
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+#info-forms{
+    background: white;
+    margin-top: 5rem;
+    border-radius: 1%;
+    padding: 4rem 2rem 1rem 2rem;
+}
+
+#submit-info{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+#login-text{
+    color: gray;
+}
+#login-link{
+    color: #253374;
+    font-weight: 450;
+    margin:-0.7rem 0;
+    text-align: center;
+}
+
+
+
+#student-signUp h2{
+    font-size: 2.5rem !important;
+    color: #253374;
+    font-weight: bold;
+    text-align: center;
+    padding: 3rem;
+}
+
+/*
+#container-form{
+    background: white;
+}
+
+.form-title{
+    color:#253374;
+    font-weight: bold;
+    align-items: center;
+    padding: 1rem;
+}*/
+
+
+button{
+    background: #89bdd3 !important;
+    border-radius: 2px !important;
+    width: auto;
+    color: white;
+    /*padding: 5rem; */
+    border-color: #89bdd3;
+    /*
+    transition:width 2s linear 1s !important; 
+    -webkit-transition:width 2s linear 1s !important; 
+    -moz-transition:width 2s linear 1s !important; 
+    -o-transition:width 2s linear 1s !important; */
+}
+
+button:hover{
+    background: white !important;
+    color:#89bdd3 !important;
+    font-weight: bold;
+    border-color: #89bdd3;
+    /*width: 200px !important;*/
+
+}

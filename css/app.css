@@ -1,4 +1,10 @@
 
+html, body {
+ height: 100%;
+ overflow-x: hidden; 
+}
+
+
 body {
   background: url(https://images.unsplash.com/photo-1508568230916-c2692a5d7b1d?auto=format&fit=crop&w=1052&q=80);
   background-size: cover;
@@ -7,12 +13,6 @@ body {
   font-family: Lato;
   color: #000307;
 }
-
-html, body {
- height: 100%;
- overflow-x: hidden; 
-}
-
 
 #content {
   text-align: center;
@@ -36,3 +36,9 @@ hr {
   border-top: 1px solid #f8f8f8;
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+
+button{
+ box-shadow: 0 1px 1px 0 rgb(100, 98, 98);
+ background-color: white;
+}
+
