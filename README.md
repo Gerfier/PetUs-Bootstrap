@@ -4,4 +4,4 @@ Simple Web Startup using the Boostrap framework
 Idea came from "The Web Developer Bootcamp" course from Udemy.com
 Only modified to a different startup company with similar structure.
 
-You can run it using this link: https://rawgit.com/Gerfier/PetUs-Bootstrap/master/index.html
+You can run it using this link: https://cdn.rawgit.com/Gerfier/PetUs-Bootstrap/dcde6a10/index.html
