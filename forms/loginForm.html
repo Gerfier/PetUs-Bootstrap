@@ -16,7 +16,7 @@
     <!--Font Awesome CDN-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <!--CSS File link-->
-    <link rel="stylesheet" href="css\forms.css">
+    <link rel="stylesheet" href="../css/forms.css">
 
 </head>
 
@@ -35,17 +35,18 @@
                 <form>                    
                     <div class="form-group row">
                         <div class="col-md-12 col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-md-12 col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
                     </div>          
                     <div class="form-group row">
                         <div class="col-md-12 col-sm-10">
-                            <button type="submit" class="btn" id="submit-info">Start Petting!</button>
+                            <button type="submit" class="btn" id="submit-info" onClick="validate()">Start Petting!</button>
+                            <p id="message"></p>
                         </div>
                     </div>                    
                 </form>
@@ -57,7 +58,7 @@
 
 
     <!--Validate JS Link-->
-    <!--<script src="validateEmployer.js"></script>-->
+    <script src="js/validate.js"></script>
     <!-- CDN jQuery, JS, pooper for Bootsrap 4-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
