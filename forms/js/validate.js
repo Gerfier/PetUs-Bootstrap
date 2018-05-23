@@ -16,9 +16,10 @@ var validate = function () {
             alert('Please fill out both spaces');
         }
 
-        else    //return success if email and password matched the correct ones
+        else    //redirect to next page if email and password matched the correct ones
             if (email == testing_email && password == testing_password) {
-                alert('Success!');
+                //load the following
+                window.open("https://www.google.com/");
             }
             else {
                 //if none of the above occurs, display error message
