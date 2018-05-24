@@ -19,7 +19,7 @@ var validate = function () {
         else    //redirect to next page if email and password matched the correct ones
             if (email == testing_email && password == testing_password) {
                 //load the following
-                window.open("https://www.google.com/");
+                window.open("testPage/testPage.html");
             }
             else {
                 //if none of the above occurs, display error message

@@ -1,0 +1,36 @@
+html,body{
+    width: 100%;
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+}
+
+h1{
+    margin-top: 30vh;
+    margin-left: 20vw;
+    color: rgb(189, 187, 187);
+}
+
+@media (max-width: 1199.98px) { 
+  h1{
+    margin-top: 20vh;
+    font-size: 2em;
+    margin-left: 5vw;
+  }  
+ }
+
+@media (max-width: 767.98px) { 
+  h1{
+    margin-top: 10vh;
+    font-size: 1.5em;
+    margin-left: 5vw;
+  }  
+ }
+
+.gear-icon{
+    font-size:10em;
+    color: rgb(224, 224, 224);
+    padding: 4vh;
+    display:block;
+    /*margin: 0 27% !important;*/
+}
